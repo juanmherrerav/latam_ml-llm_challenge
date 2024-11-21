@@ -1,2 +1,10 @@
+# Graphical libs
 matplotlib~=3.9.2
 seaborn~=0.13.2
+
+# Models
+
+# Jupyter notebook libs
+ipykernel~=6.29.5
+
+
