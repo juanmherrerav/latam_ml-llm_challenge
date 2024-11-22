@@ -111,16 +111,15 @@ class DelayModel:
         self._model.fit(features, target)
         return
 
-#    def predict(self, features: pd.DataFrame) -> List[int]:
-#        """
-#        Predict delays for new flights.#
-#
-#        Args:
-##            features (pd.DataFrame): preprocessed data.
-#
-#        Returns:
-#            (List[int]): predicted targets.
-#        """
-#        response = self._model.predict(features).tolist()
-#        print("Response_type"+type(response))
-#        return response
+    def predict(self, features: pd.DataFrame) -> List[int]:
+        """
+        Predict delays for new flights.#
+
+        Args:
+            features (pd.DataFrame): preprocessed data.
+        Returns:
+            (List[int]): predicted targets.
+        """
+        response = self._model.predict(features)
+        print("Response_type"+type(response))
+        return response
