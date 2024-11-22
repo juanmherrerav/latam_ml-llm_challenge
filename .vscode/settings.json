@@ -1,0 +1,20 @@
+{
+    "conventionalCommits.scopes": [
+        "Challenge",
+        "Setup",
+        "Data Analisys"
+    ],
+    "makefile.configureOnOpen": true,
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "cSpell.words": [
+        "fgrep",
+        "pathlib",
+        "pytest",
+        "TIPOVUELO",
+        "venv"
+    ]
+}
