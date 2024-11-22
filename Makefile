@@ -33,7 +33,7 @@ stress-test:
 .PHONY: model-test
 model-test:			## Run tests and coverage
 	mkdir reports || true
-	pytest --cov-config=.coveragerc --cov-report term --cov-report html:reports/html --cov-report xml:reports/coverage.xml --junitxml=reports/junit.xml --cov=challenge tests/model
+	pytest -s --cov-config=.coveragerc --cov-report term --cov-report html:reports/html --cov-report xml:reports/coverage.xml --junitxml=reports/junit.xml --cov=challenge tests/model
 
 .PHONY: api-test
 api-test:			## Run tests and coverage
